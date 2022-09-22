@@ -1,0 +1,41 @@
+.centered {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.centered > span {
+	text-align: center;
+	display: block;
+}
+
+.image.main.mainLogo img {
+    width: 100%;
+    left: 0%;
+    margin: 0;
+    opacity: .4;
+}
+
+.imageInner {
+	position: absolute;
+	left: 9px;
+	bottom: 1px;
+	font-size: xx-large;
+}
+
+section#four {
+	border-top: 0;
+}
+
+section#four .container {
+	display: none;
+}
+
+@media screen and (max-width: 736px) {
+	.image.main.mainLogo img {
+	    position:relative;
+	}
+
+	#header > header {
+		padding: 2em 0 0 0;
+	}
+}
